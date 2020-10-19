@@ -1,4 +1,4 @@
-# Implementation of Luhn algorithm for checking and generation tail control number of card number
+# Implementation of Luhn algorithm for checking and generation tail control digit of card number
 # https://en.wikipedia.org/wiki/Luhn_algorithm
 
 def calcLuhn(cardNo: str, isCurrentCharEven: bool = False):   # isCurrentCharEven = False for checking, True for calculation Luhn number
